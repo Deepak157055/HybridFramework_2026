@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      
+      
+      <class name="com.WebTesting_TestNG.Testcase1_priority"/>
+      <class name="com.WebTesting_TestNG.Testcase2_Description_Invocation"/>
+      <class name="com.WebTesting_TestNG.Testcase3_disableTest"/>
+      <class name="com.WebTesting_TestNG.Testcase4_Assertion"/>
+      <class name="com.WebTesting_TestNG.Testcase5_HRMLoginValidation"/>
+      <class name="com.WebTesting_TestNG.Testcase6_timeouts"/>
+      <class name="com.WebTesting_TestNG.Testcase7_dependsOnMethod"/>
+      <class name="com.WebTesting_TestNG.Testcase8_groups"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

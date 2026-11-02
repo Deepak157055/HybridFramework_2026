@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DefaultSuite">
+	<test thread-count="5" name="DefaultTest">
+		<classes>
+			<class name="com.WebTesting_TestNG.Testcase3_disableTest">
+				<methods>
+					<exclude name="addTocartTest"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

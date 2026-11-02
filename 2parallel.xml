@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="ChromeTest">
+  <parameter name="bname" value="chrome"></parameter>
+    <classes>
+      <class name="com.Swag2.UITest.TestCases.Tc1_LoginTest"/>
+      <class name="com.Swag2.UITest.TestCases.Tc5_OverviewTest"/>
+      <class name="com.Swag2.UITest.TestCases.Tc2_InventoryTest"/>
+      <class name="com.Swag2.UITest.TestCases.Tc4_CheckOutTest"/>
+      <class name="com.Swag2.UITest.TestCases.Tc3_CartTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="EdgeTest">
+    <parameter name="bname" value="edge"></parameter>
+    <classes>
+      <class name="com.Swag2.UITest.TestCases.Tc1_LoginTest"/>
+      <class name="com.Swag2.UITest.TestCases.Tc5_OverviewTest"/>
+      <class name="com.Swag2.UITest.TestCases.Tc2_InventoryTest"/>
+      <class name="com.Swag2.UITest.TestCases.Tc4_CheckOutTest"/>
+      <class name="com.Swag2.UITest.TestCases.Tc3_CartTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

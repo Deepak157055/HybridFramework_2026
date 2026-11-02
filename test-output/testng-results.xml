@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-02T15:15:01 IST" name="Suite" finished-at="2026-11-02T15:15:16 IST" duration-ms="14519">
+    <groups>
+    </groups>
+    <test started-at="2026-11-02T15:15:01 IST" name="Test" finished-at="2026-11-02T15:15:16 IST" duration-ms="14519">
+      <class name="com.Swag2.UITest.TestCases.Tc5_OverviewTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.Swag2.UITest.TestCases.Tc5_OverviewTest@6986852]" started-at="2026-11-02T15:15:01 IST" name="setUp" finished-at="2026-11-02T15:15:04 IST" duration-ms="2065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="pageSetup()[pri:0, instance:com.Swag2.UITest.TestCases.Tc5_OverviewTest@6986852]" started-at="2026-11-02T15:15:04 IST" name="pageSetup" finished-at="2026-11-02T15:15:13 IST" duration-ms="9547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetup -->
+        <test-method signature="validatePaymentDetails()[pri:1, instance:com.Swag2.UITest.TestCases.Tc5_OverviewTest@6986852]" started-at="2026-11-02T15:15:13 IST" name="validatePaymentDetails" finished-at="2026-11-02T15:15:15 IST" duration-ms="2141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePaymentDetails -->
+        <test-method is-config="true" signature="getScreenshot(org.testng.ITestResult)[pri:0, instance:com.Swag2.UITest.TestCases.Tc5_OverviewTest@6986852]" started-at="2026-11-02T15:15:15 IST" name="getScreenshot" finished-at="2026-11-02T15:15:15 IST" duration-ms="159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePaymentDetails status=SUCCESS method=Tc5_OverviewTest.validatePaymentDetails()[pri:1, instance:com.Swag2.UITest.TestCases.Tc5_OverviewTest@6986852] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshot -->
+        <test-method signature="validateResult()[pri:2, instance:com.Swag2.UITest.TestCases.Tc5_OverviewTest@6986852]" started-at="2026-11-02T15:15:15 IST" name="validateResult" finished-at="2026-11-02T15:15:16 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResult -->
+        <test-method is-config="true" signature="getScreenshot(org.testng.ITestResult)[pri:0, instance:com.Swag2.UITest.TestCases.Tc5_OverviewTest@6986852]" started-at="2026-11-02T15:15:16 IST" name="getScreenshot" finished-at="2026-11-02T15:15:16 IST" duration-ms="138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateResult status=SUCCESS method=Tc5_OverviewTest.validateResult()[pri:2, instance:com.Swag2.UITest.TestCases.Tc5_OverviewTest@6986852] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Swag2.UITest.TestCases.Tc5_OverviewTest@6986852]" started-at="2026-11-02T15:15:16 IST" name="tearDown" finished-at="2026-11-02T15:15:16 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Swag2.UITest.TestCases.Tc5_OverviewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

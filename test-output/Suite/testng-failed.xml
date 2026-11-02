@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <parameter name="bname" value="chrome"/>
+    <classes>
+      <class name="com.Swag2.UITest.TestCases.Tc3_CartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="pageSetup"/>
+          <include name="validateRemoveProduct"/>
+          <include name="tearDown"/>
+          <include name="validateContinueShopping"/>
+          <include name="validateCheckout"/>
+          <include name="verifyTotalProductsInCart"/>
+        </methods>
+      </class> <!-- com.Swag2.UITest.TestCases.Tc3_CartTest -->
+      <class name="com.Swag2.UITest.TestCases.Tc5_OverviewTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateResult"/>
+          <include name="tearDown"/>
+          <include name="validatePaymentDetails"/>
+          <include name="pageSetup"/>
+        </methods>
+      </class> <!-- com.Swag2.UITest.TestCases.Tc5_OverviewTest -->
+      <class name="com.Swag2.UITest.TestCases.Tc2_InventoryTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyCartPage"/>
+          <include name="verifyAddProduct"/>
+          <include name="tearDown"/>
+          <include name="pageSetup"/>
+        </methods>
+      </class> <!-- com.Swag2.UITest.TestCases.Tc2_InventoryTest -->
+      <class name="com.Swag2.UITest.TestCases.Tc1_LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validateLogin"/>
+        </methods>
+      </class> <!-- com.Swag2.UITest.TestCases.Tc1_LoginTest -->
+      <class name="com.Swag2.UITest.TestCases.Tc4_CheckOutTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="pageSetup"/>
+          <include name="validateCheckOut"/>
+        </methods>
+      </class> <!-- com.Swag2.UITest.TestCases.Tc4_CheckOutTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

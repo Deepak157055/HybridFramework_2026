@@ -67,7 +67,7 @@
 					<version>3.5.3</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>1master.xml</suiteXmlFile>
+							<suiteXmlFile>3SinglePageTest.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
